@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a RMS.">
+    <title>Contato | RMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <div class="barra container">
+            <a class="marca" href="index.html" aria-label="RMS - Página inicial">
+                <span class="marca-icone">&lt;/&gt;</span>
+                <span><strong>RMS</strong><small>Desenvolvimento de Software e Sites</small></span>
+            </a>
+            <nav class="menu" aria-label="Navegação principal">
+                <a href="index.html">Início</a>
+                <a href="index.html#servicos">Serviços</a>
+                <a href="index.html#sobre">Sobre</a>
+                <a class="ativo" href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="faixa-contato">
+            <div class="container">
+                <p class="sobretitulo">ESTOU À DISPOSIÇÃO</p>
+                <h1>Entre em contato</h1>
+                <p>Envie sua mensagem e vamos conversar sobre sua ideia.</p>
+            </div>
+        </section>
+
+        <section class="area-contato container">
+            <aside class="painel-contato">
+                <div class="icone-envelope" aria-hidden="true">✉</div>
+                <h2>Fale comigo</h2>
+                <p>Tem uma ideia, dúvida ou projeto em mente? Preencha o formulário. Será um prazer conhecer sua proposta!</p>
+                <div class="info-contato">
+                    <div class="info-icone" aria-hidden="true">⌂</div>
+                    <div><strong>Localização</strong><span>Belém – PA</span></div>
+                </div>
+                <div class="info-contato">
+                    <div class="info-icone" aria-hidden="true">@</div>
+                    <div><strong>E-mail</strong><span>rms19@gmail.com</span></div>
+                </div>
+            </aside>
+
+            <form class="formulario" action="#" method="post">
+                <h2>Envie uma mensagem</h2>
+                <p class="descricao-form">Os campos marcados com * são obrigatórios.</p>
+
+                <label for="nome">Nome completo <span>*</span></label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" autocomplete="name" required>
+
+                <label for="email">E-mail <span>*</span></label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="email" required>
+
+                <label for="mensagem">Mensagem <span>*</span></label>
+                <textarea id="mensagem" name="mensagem" rows="6" placeholder="Fale seu pedido, para que possamos lhe ajudar." required></textarea>
+
+                <button class="botao enviar" type="submit">➤ &nbsp; Enviar mensagem</button>
+                <p class="aviso-form">Este formulário é apenas visual neste exemplo. Para receber mensagens, é necessário conectá-lo a um serviço ou backend.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <a class="marca marca-rodape" href="index.html">
+                <span class="marca-icone">&lt;/&gt;</span>
+                <span><strong>RMS</strong><small>Desenvolvimento de Software e Sites</small></span>
+            </a>
+            <p>© 2026 RMS • Desenvolvido por Rayna</p>
+            <a href="index.html">Voltar ao início</a>
+        </div>
+    </footer>
+</body>
+</html>
